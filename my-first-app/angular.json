@@ -119,5 +119,12 @@
       }
     }
   },
+<<<<<<< Updated upstream
   "defaultProject": "my-first-app"
+=======
+  "defaultProject": "my-first-app",
+  "cli": {
+    "analytics": "eec93185-85ea-4540-a5b6-5ece9422c70e"
+  }
+>>>>>>> Stashed changes
 }

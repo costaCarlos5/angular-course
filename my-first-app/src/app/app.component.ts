@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   // styleUrls: ['./app.component.css']
   styles: [`
     h3 {
+<<<<<<< Updated upstream
       color: darkred;
+=======
+      color: red;
+>>>>>>> Stashed changes
     }
   `]
 })
