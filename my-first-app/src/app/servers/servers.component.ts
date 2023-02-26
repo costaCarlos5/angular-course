@@ -4,16 +4,6 @@ import { Component, OnInit } from '@angular/core';
   // selector: '[app-servers]',
   // selector: '.app-servers',
   selector: 'app-servers',
-<<<<<<< Updated upstream
-  template: `
-    <app-server></app-server>
-    <app-server></app-server>`,
-  styleUrls: ['./servers.component.css']
-})
-export class ServersComponent implements OnInit {
-
-  constructor() { }
-=======
   // template: `
   //   <app-server></app-server>
   //   <app-server></app-server>`,
@@ -30,13 +20,10 @@ export class ServersComponent implements OnInit {
       this.allowNewServer = true;
     }, 2000);
   }
->>>>>>> Stashed changes
 
   ngOnInit() {
   }
 
-<<<<<<< Updated upstream
-=======
   onCreateServer() {
     this.serverCreationStatus = 'Server was created! Name is ' + this.serverName;
   }
@@ -44,5 +31,4 @@ export class ServersComponent implements OnInit {
   onUpdateServerName(event: Event) {
     this.serverName = (<HTMLInputElement>event.target).value;
   }
->>>>>>> Stashed changes
 }
