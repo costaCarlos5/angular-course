@@ -23,7 +23,15 @@ export class RecipeService {
       [
         new Ingredient('Buns', 2),
         new Ingredient('Meat', 1)
-      ])
+      ]),
+      new Recipe(
+        'Juice',
+        'Super juice!',
+        'https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg',
+        [
+          new Ingredient('Water', 1),
+          new Ingredient('Sugar', 100)
+        ])
   ];
 
   constructor(private slService: ShoppingListService) {}
