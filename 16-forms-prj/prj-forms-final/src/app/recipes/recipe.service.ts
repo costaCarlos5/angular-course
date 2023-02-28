@@ -24,7 +24,15 @@ export class RecipeService {
       [
         new Ingredient('Buns', 2),
         new Ingredient('Meat', 1)
-      ])
+      ]),
+      new Recipe('Test',
+        'The Super test?',
+        'https://abraskitchen.com/wp-content/uploads/Korean-Tuna-Power-Bowls-2.jpg',
+        [
+          new Ingredient('avocado', 2),
+          new Ingredient('Tuna', 1),
+          new Ingredient('Eggs', 1)
+        ])
   ];
 
   constructor(private slService: ShoppingListService) {}
